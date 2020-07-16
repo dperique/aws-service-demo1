@@ -9,7 +9,7 @@ def flaskrun(app, default_host="0.0.0.0", default_port="80"):
 
     # Set up the command-line options
     parser = optparse.OptionParser()
-    msg = 'Hostname of Flask app [{}]'.format(default_host)
+    msg = 'The Hostname of Flask app [{}]'.format(default_host)
     parser.add_option("-H", "--host",
                       help=msg,
                       default=default_host)
